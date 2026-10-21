@@ -1,16 +1,35 @@
-# myapp
+# Trade App UI Assignment
 
-A new Flutter project.
+A Flutter project demonstrating the User Interface for a Trading Application. This project focuses on the frontend layout and design for essential app screens including authentication, dashboard, and user profile management.
 
-## Getting Started
+## 🖼️ Screenshots
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="lib/trade_app_ui_pic/Screenshot_20230506_130210.jpg" width="250" alt="Home Page Screenshot">
+  <img src="lib/trade_app_ui_pic/Screenshot_20230506_130219.jpg" width="250" alt="Sign In Screenshot">
+  <img src="lib/trade_app_ui_pic/Screenshot_20230506_130226.jpg" width="250" alt="Sign Up Screenshot">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Screens Included
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This UI assignment includes the following core screens:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Sign In Page:** (`lib/Signin_Page/signin_Page.dart`) - User login interface.
+* **Sign Up Page:** (`lib/SignUp_Page/Signup_page.dart`) - New user registration interface.
+* **Home Page:** (`lib/Home_Page/home_page.dart`) - The main dashboard/trading view.
+* **User Account Page:** (`lib/UserAccount/accountPage.dart`) - User profile and settings interface.
+
+## 📂 Project Structure
+
+```text
+lib/
+├── Home_Page/
+│   └── home_page.dart       # Main trading dashboard UI
+├── SignUp_Page/
+│   └── Signup_page.dart     # Registration screen UI
+├── Signin_Page/
+│   └── signin_Page.dart     # Login screen UI
+├── UserAccount/
+│   └── accountPage.dart     # Profile management UI
+├── trade_app_ui_pic/        # UI Reference Screenshots
+└── main.dart                # Application entry point
